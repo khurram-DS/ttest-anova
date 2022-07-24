@@ -141,8 +141,8 @@ The t-test is a method that determines whether two populations are statistically
                 
                 from pylab import rcParams
                 import scipy
-                from scipy.stats import f_oneway
-                from scipy.stats import ttest_ind
+                #from scipy.stats import f_oneway
+                #from scipy.stats import ttest_ind
                 import seaborn as sns
                 import numpy as np
                 import seaborn as sns
@@ -155,7 +155,7 @@ The t-test is a method that determines whether two populations are statistically
                 cufflinks.go_offline()
                 cufflinks.set_config_file(world_readable=True, theme='pearl')
                 import plotly.graph_objs as go
-                from chart_studio import plotly as py
+                #from chart_studio import plotly as py
                 import plotly
                 from plotly import tools
                 
