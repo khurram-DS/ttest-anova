@@ -140,7 +140,20 @@ The t-test is a method that determines whether two populations are statistically
                 st.markdown("**Results**")
                 
                 from pylab import rcParams
-                
+                import numpy as np
+                import seaborn as sns
+
+                import plotly.figure_factory as ff
+                import numpy as np
+                from plotly.offline import init_notebook_mode, iplot
+                import plotly.figure_factory as ff
+                import cufflinks
+                cufflinks.go_offline()
+                cufflinks.set_config_file(world_readable=True, theme='pearl')
+                import plotly.graph_objs as go
+                from chart_studio import plotly as py
+                import plotly
+                from plotly import tools
                 from scipy.stats import f_oneway
                 from scipy.stats import ttest_ind
                 import seaborn as sns
