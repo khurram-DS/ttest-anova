@@ -362,6 +362,9 @@ The t-test is a method that determines whether two populations are statistically
                         st.write(fig2)
                         st.write("Bar plot of {} for all the {}".format(selected_columns2,selected_columns1))
                         import plotly.express as px
+                        stat=df.groupby(selected_columns1)[selected_columns2].describe()
+                
+                
                         fig = px.bar(stat, x=stat.index, y="mean", color="count")
                         st.write(fig)
             
