@@ -140,6 +140,7 @@ The t-test is a method that determines whether two populations are statistically
                 st.markdown("**Results**")
                 
                 from pylab import rcParams
+                import scipy
                 from scipy.stats import f_oneway
                 from scipy.stats import ttest_ind
                 import seaborn as sns
