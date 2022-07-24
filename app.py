@@ -29,7 +29,7 @@ def main():
     
     
     
-    st.sidebar.image("static/rhe.jpg", use_column_width=True)
+    st.sidebar.image("static/rhe.png", use_column_width=True)
     activites = ["About","t-test & ANOVA"]
     choice =st.sidebar.selectbox("Select Activity",activites)
  
