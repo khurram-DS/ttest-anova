@@ -154,8 +154,7 @@ The t-test is a method that determines whether two populations are statistically
                 from chart_studio import plotly as py
                 import plotly
                 from plotly import tools
-                from scipy.stats.stats import f_oneway
-                from scipy.stats.stats import ttest_ind
+                
                 import seaborn as sns
                 
                 
