@@ -360,6 +360,10 @@ The t-test is a method that determines whether two populations are statistically
                         layout = go.Layout(barmode='overlay', title="Histogram of {} for all the {}".format(selected_columns2,selected_columns1))
                         fig2 = go.Figure(data=data, layout=layout)
                         st.write(fig2)
+                        st.write("Bar plot of {} for all the {}".format(selected_columns2,selected_columns1))
+                        import plotly.express as px
+                        fig = px.bar(stat, x=stat.index, y="mean", color="count")
+                        st.write(fig)
             
         if length>= 3:
             
