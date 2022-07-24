@@ -144,6 +144,20 @@ The t-test is a method that determines whether two populations are statistically
                 from scipy.stats import ttest_ind
                 import seaborn as sns
                 import numpy as np
+                import seaborn as sns
+
+                import plotly.figure_factory as ff
+                import numpy as np
+                from plotly.offline import init_notebook_mode, iplot
+                import plotly.figure_factory as ff
+                import cufflinks
+                cufflinks.go_offline()
+                cufflinks.set_config_file(world_readable=True, theme='pearl')
+                import plotly.graph_objs as go
+                from chart_studio import plotly as py
+                import plotly
+                from plotly import tools
+                
                 import warnings            
                 warnings.filterwarnings("ignore")
                 Gender_a=df.loc[df[selected_columns1] == typ[0]][selected_columns2]
