@@ -21,6 +21,8 @@ enableXsrfProtection = true
 runOnSave = true
 maxUploadSize = 200
 maxMessageSize = 200
+headless = true
+port = 8501
 
 
 
